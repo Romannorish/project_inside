@@ -1,0 +1,21 @@
+.wrapper {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+}
+
+.starwrap {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  width: 50px;
+  height: 65px;
+}
