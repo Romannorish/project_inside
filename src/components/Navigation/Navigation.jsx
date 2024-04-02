@@ -15,8 +15,8 @@ export default function Navigation() {
           <NavLink className={css.item} to="/works">
             My works
           </NavLink>
-          <NavLink className={css.item} to="/contacts">
-            Contacts
+          <NavLink className={css.item} to="/resume">
+            My resume
           </NavLink>
         </ul>
       </nav>

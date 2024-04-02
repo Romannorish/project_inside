@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: 1280px;
+  background-color: rgb(226, 226, 251);
+}
+.starwrap {
+  max-width: 1270px;
+  padding: 5px 0;
+  display: flex;
+  outline: 1px soled tomato;
+  border-top: 1px solid black;
+}
+.leftBar {
+  display: block;
+  width: 750px;
+  border: 1px soled tomato;
+  margin-left: 15px;
+}
+.rightBar {
+  width: 420px;
+  border: 1px soled tomato;
+  margin-left: 15px;
+}
+
+.footer {
+  max-width: 1270px;
+  border: 1px soled tomato;
+}
+
+.contTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+  background-color: beige;
+}
+.heroTitle {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 0;
+}
