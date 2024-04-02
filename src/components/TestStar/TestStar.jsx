@@ -2,7 +2,7 @@ import {useState} from "react"
 import css from "./TestStar.module.css"
 import {MdOutlineStarBorder} from "react-icons/md"
 
-export default function TestStar({count = 5, hundleTotal}) {
+export default function TestStar({count = 5, addStar}) {
   const [currItem, setCurrItem] = useState()
   const [hoveritem, setHoveritem] = useState()
 
@@ -19,7 +19,7 @@ export default function TestStar({count = 5, hundleTotal}) {
             <MdOutlineStarBorder
               onClick={() => {
                 setCurrItem(index)
-                hundleTotal(index)
+                addStar(index)
               }}
               className={css.star}
               key={index}
